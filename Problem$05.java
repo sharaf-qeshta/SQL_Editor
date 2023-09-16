@@ -17,14 +17,8 @@ import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * **35.5 (Revise SQLClient.java) Rewrite Listing 35.1, SQLClient.java, to display the query
- * result in a TableView, as shown in Figure 35.8.
- *
- *
- * @author Sharaf Qeshta
- * */
-public class Problem$05 extends Application
+
+public class SQLEditor extends Application
 {
     // Connection to the database
     private Connection connection;
@@ -121,7 +115,7 @@ public class Problem$05 extends Application
 
         // Create a scene and place it in the stage
         Scene scene = new Scene(borderPane, 900, 500);
-        primaryStage.setTitle("Problem$05"); // Set the stage title
+        primaryStage.setTitle("SQLEditor"); // Set the stage title
         primaryStage.setScene(scene); // Place the scene in the stage
         primaryStage.show(); // Display the stage
 
